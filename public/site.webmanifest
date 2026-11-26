@@ -1,0 +1,9 @@
+{
+  "name": "Apron — Salon Updates on WhatsApp",
+  "short_name": "Apron",
+  "description": "Monitor salon sales, discounts, bill edits and day-end totals from anywhere.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#efeae2",
+  "theme_color": "#f6c800"
+}

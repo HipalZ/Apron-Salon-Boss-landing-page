@@ -47,7 +47,7 @@ body{background:#f8f8f8;color:#111;font-family:'Inter Tight',-apple-system,Helve
 a{color:inherit;text-decoration:none}
 .nav{position:fixed;left:0;right:0;top:0;z-index:50;height:72px;padding:0 40px;display:flex;justify-content:space-between;align-items:center;color:#fff;transition:background .3s,color .3s}
 .nav.lt{color:#111;background:rgba(248,248,248,.86);backdrop-filter:blur(14px)}
-.logo{font-size:24px;font-weight:700;letter-spacing:-.01em}.logo small{font-size:13px;font-weight:400;opacity:.7;margin-left:12px;letter-spacing:0}
+.logo{font-size:24px;font-weight:700;letter-spacing:-.01em;color:inherit;text-decoration:none}
 .navcta{font-size:14px;border:1px solid currentColor;border-radius:999px;padding:9px 18px 9px 14px;opacity:.95;display:inline-flex;align-items:center;gap:8px}.navcta svg{fill:currentColor}.totop{position:fixed;right:28px;bottom:28px;z-index:60;width:52px;height:52px;border-radius:50%;border:0;background:#111;color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.25);opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity .25s,transform .25s}.totop.on{opacity:1;transform:none;pointer-events:auto}.totop:hover{background:#333}
 .nav.lt .navcta{background:#111;color:#fff;border-color:#111}
 .btn{display:inline-flex;align-items:center;height:52px;padding:0 32px;background:#fff;color:#111;border-radius:999px;font-size:16px;font-weight:500}
@@ -147,9 +147,7 @@ h1{text-transform:uppercase}h2,h3{text-transform:capitalize}h1,h2,h3{font-weight
 .close{padding:70px 80px 36px;background:#f8f8f8;text-align:center;display:flex;flex-direction:column;align-items:center}
 .close h2{font-size:clamp(40px,5.4vw,84px);margin-bottom:32px}
 .divl{border-top:1px solid #ddd;margin:64px 0 28px;width:100%}
-.flock{display:flex;flex-wrap:wrap;align-items:center;gap:16px;justify-content:center}.flock .ft{flex-basis:100%;text-align:center;margin:8px 0 0}
-.fchip{width:48px;height:48px;border-radius:12px;flex:none;display:flex;align-items:center;justify-content:center;overflow:hidden}
-.fchip.h{background:#1a1a1a}.fchip.h img{width:28px;height:auto}.fchip.b img{width:48px;height:48px}
+.flock{display:flex;flex-wrap:wrap;align-items:center;gap:16px;justify-content:center}.flock .ft{flex-basis:100%;text-align:center;margin:8px 0 0}.footer-logo{font-size:28px;font-weight:700;letter-spacing:-.02em}
 .ft{font-size:16px;line-height:24px;color:#444;margin-left:8px;text-align:left}
 .legal{margin-top:24px;font-size:12px;line-height:16px;color:#999}
 
@@ -160,7 +158,7 @@ h1{text-transform:uppercase}h2,h3{text-transform:capitalize}h1,h2,h3{font-weight
 .trust{background:#fff;border-top:1px dashed #cfcfcf}
 .close{border-top:1px dashed #cfcfcf}
 @media(max-width:900px){
- .nav{height:60px;padding:0 24px}.navcta{font-size:13px;padding:8px 14px 8px 11px}.totop{right:16px;bottom:16px;width:46px;height:46px}.logo small{display:block;margin:2px 0 0}.nav.lt{background:rgba(248,248,248,.96);backdrop-filter:blur(8px)}
+ .nav{height:60px;padding:0 24px}.navcta{font-size:13px;padding:8px 14px 8px 11px}.totop{right:16px;bottom:16px;width:46px;height:46px}.nav.lt{background:rgba(248,248,248,.96);backdrop-filter:blur(8px)}
  .hero{min-height:640px;background:#0d0a08 url(./assets/fonts/font5.bin) 80% bottom/auto 540px no-repeat}
  .hero:before{background:linear-gradient(180deg,#0d0a08 0%,#0d0a08 38%,rgba(13,10,8,0) 56%)}
  .hero .tg{display:none}.hero h1{left:24px;top:104px;width:342px;font-size:34px}.hero .sub{left:24px;top:214px;width:320px;font-size:16px;line-height:22px}
